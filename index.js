@@ -5,3 +5,4 @@ function divide(a,b) {return a/b};
 function inc(n) {return ++n;};
 function dec(n) {return --n;};
 function makeInt(n) {var n = parseInt (n,10); return n}
+function preserveDecimal(n) {var n = parseFloat(n); return n}
